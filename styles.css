@@ -1,0 +1,298 @@
+body{
+    height: 97vh;
+    padding: 3px;
+    margin: 3px;
+}
+
+.contenedor{
+    display: flex;
+    padding: 35px;
+    margin: -6px;
+    height: 555px;
+}
+
+#logo{
+    margin-top: 42px;
+    margin-left: 49px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#seleccionar-botones{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -39px;
+    margin-right: 28px;
+}
+
+#boton-Features, #boton-Team, #boton-Sign-In{
+    margin-right: 57px;
+    background-color: transparent;
+    border: transparent;
+}
+ 
+#titulo-parrafo{
+    margin-top: 95px;
+    width: 629px;
+    padding: 5px;
+    font-size: 28px;
+}
+
+#p{
+    margin-right: 105px;
+    font-size: 19px;
+}
+
+
+#boton-email{
+    padding: 1px 41px;
+    height: 23px;
+    border-radius: 4px;
+}  
+
+#boton-Get-Started{
+    color: white;
+    background-color: blue;
+    height: 30px;
+    width: 185px;
+    border: transparent;
+    border-radius: 4px;
+} 
+
+#imagen{
+    margin-top: 70px;
+      width: 589px;
+      margin-left: -9px;
+}
+
+#imagen > img {
+    width:100%;
+}
+
+
+/* section # 2 */
+
+.contenedor-2{
+    padding: 35px;
+    margin: -6px;
+    height: 688px;
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    background-image: url(./images/bg-curve-desktop.svg);
+}
+
+#titulo-2{
+    margin-top: 75px;
+    width: 654px;
+    font-size: 29px;
+}
+
+#texto{
+    margin-right: 754px;
+    font-size: 19px;
+}
+
+.mensaje{
+    margin-top: 2px;
+}
+
+#imagen-2{
+    width: 518px;
+    margin-top: -32vh;
+    place-self: self-end;
+    margin-right: 61px
+}
+
+#imagen-2 > img {
+    width:110%;
+}
+
+#See-how-Fylo-works-images{
+    margin-top: -250px;
+    display: flex;
+    align-items: center;
+    color: #10bca1;
+}
+
+#caja-mensaje{
+    margin-top: 17px;
+    height: 181px;
+    width: 45vh;
+    background-color: white;
+    border-radius: 10px;
+    padding: 32px;
+}
+
+.images-avatar{
+    height:41px;
+    width: 40px;
+    margin-top: -47px;
+    margin-left: -13px;
+    border-radius: 100%;
+    background-size: 44px;
+    background-position: center center;
+    background-image: url(./images/avatar-testimonial.jpg);
+}
+
+.Kyle-Burton{
+    margin-left: 36px;
+    margin-top: 8%;
+}
+
+.Founder-CEO-Huddle{
+    margin-left: 36px;
+    margin-top: -5%;
+    font-size: 10px;
+}
+
+#caja-gris{
+    background-color: #414a75;
+    height: 210px;
+    padding: 32px;
+    margin: -7px;
+}
+
+.texto-2{
+    width: 533px;
+    font-size: 20px;
+    color: white;
+} 
+
+.Get-early-access-today{
+    color: white;
+}
+
+.boton-correo{
+    display: grid;
+    justify-content: end;
+    margin-top: -141px;
+    margin-right: 173px;
+}
+
+.caja-de-correo-electronico{
+    margin-block-end: 20px;
+    height: 30px;
+    width: 375px;
+    border-radius: 4px;
+}
+
+.boton-de-correo-electronico{
+    color: white;
+    width: 136px;
+    border: transparent;
+    border-radius: 4px;
+    background-color: #6296ff;
+    height: 36px;
+    width: 210px;
+}
+
+    /*pie de caja*/
+
+#caja-information{
+    background-color:#080635 ;
+    height: 280px;
+    padding: 32px;
+    margin: -7px;
+}
+
+.logo-2{
+    width: 141px;
+    margin-block-end: 25px;
+    margin-top: 29px;
+}
+
+.telefono{
+    color: white;
+    width: 200px;
+}
+
+.logo-telefono{
+    margin-right: 15px;
+}
+
+.direccion-correo{
+    color: white;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.logo-correo{
+    margin-right: 15px;
+}
+
+#botones-information{
+    display: flex;
+    margin-top: -205px;
+    margin-right: 331px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-About-Us{
+    color: white;
+    border: transparent;
+    background: border-box;
+    margin-left: 23px;
+}
+
+.boton-Jobs{
+    color: white;
+    border: transparent;
+    background: border-box;
+    margin-right: 4px;
+}
+
+.boton-Press{
+    color: white;
+    border: transparent;
+    background: border-box;
+}
+
+.boton-Blog{
+    color: white;
+    border: transparent;
+    background: border-box;
+    margin-right: 8px;
+}
+
+.botones-contactos{
+    display: flex;
+    margin-top: -133px;
+    flex-direction: column;
+    margin-right: -218px;
+}
+
+.Contact-Us{
+    color: white;
+    border: transparent;
+    background: border-box;
+}
+
+.Terms{
+    color: white;
+    border: transparent;
+    background: border-box;
+}
+
+.Privacy{
+    color: white;
+    border: transparent;
+    background: border-box; 
+}
+
+.attribution { 
+    font-size: 11px; 
+    margin-top: 92px;
+    margin-left: 505px;
+    color: white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
